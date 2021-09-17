@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>나비</title>
+    <script src="https://developer.letsee.io/api/webar?key=7d8c80360feb1f47dc4b5cac724f9809a2738399aa1ac3821f7fbdc9398b982c"></script>    
+    <style media="place" type="text/css">
+    #container {
+        -letsee-target: uri('https://developer.letsee.io/api-tm/target-manager/target-uid/61441baa3f9ee405ea644b45');
+        width: 250;
+        height: 393;
+        align-items: center;       
+    }
+    </style>
+</head>
+<body>  
+    <!-- 실행부분 -->
+  <script>
+    letsee.init();
+    letsee.ready(() => {
+      letsee.start();
+    });
+  </script>
+
+<div id="container" >  
+    안녕하세요
+</div>
+</body>
+</html>
